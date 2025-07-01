@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['door', 'window', 'bed',  'dining_table', 'toilet', 'sofa', 'round_table', 'sink',   'tub']
+roboflow:
+  workspace: izymka
+  project: robin-c75re-fwise
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/izymka/robin-c75re-fwise/dataset/1

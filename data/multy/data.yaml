@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['0', '1', '2', '3', '5', 'bathroom', 'door', 'perimeter', 'stairs', 'window']
+
+roboflow:
+  workspace: izymka
+  project: fullfp-jbuu0
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/izymka/fullfp-jbuu0/dataset/1
