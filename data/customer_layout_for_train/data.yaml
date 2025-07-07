@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['door', 'window']
+
+roboflow:
+  workspace: izymka
+  project: customer_door_window
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/izymka/customer_door_window/dataset/3
